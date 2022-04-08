@@ -1,0 +1,11 @@
+{
+  "AppSyncApiName": "reacttodopwa",
+  "DynamoDBBillingMode": "PAY_PER_REQUEST",
+  "DynamoDBEnableServerSideEncryption": false,
+  "AuthCognitoUserPoolId": {
+    "Fn::GetAtt": [
+      "authreacttodopwa1896afcc",
+      "Outputs.UserPoolId"
+    ]
+  }
+}

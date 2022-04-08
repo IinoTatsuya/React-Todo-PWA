@@ -1,0 +1,13 @@
+{
+    "AppSyncApiName": "reacttodopwa",
+    "DynamoDBBillingMode": "PAY_PER_REQUEST",
+    "DynamoDBEnableServerSideEncryption": false,
+    "AuthCognitoUserPoolId": {
+        "Fn::GetAtt": [
+            "authreacttodopwa1896afcc",
+            "Outputs.UserPoolId"
+        ]
+    },
+    "S3DeploymentBucket": "amplify-reacttodopwa-dev-125930-deployment",
+    "S3DeploymentRootKey": "amplify-appsync-files/127a3d36883bfdb7f13c59884b3b79962165484b"
+}
